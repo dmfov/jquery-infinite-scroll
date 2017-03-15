@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>JQuery Infinite Scroll Plugin</title>
+	<link href="../test/fixtures/style.css" rel="stylesheet" />
+</head>
+<body>
+
+	<h1>JQuery Infinite Scroll</h1>
+	
+  <div id="inf">
+  	<div>0</div>
+  	<div>0</div>
+  	<div>0</div>
+  </div>
+	
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/jquery.infinite.scroll.js"></script>
+	<script>
+	$('#inf').infinite('../test/fixtures/{offset}.txt', {
+		onload: function(obj, r) { console.log('LOAD'); },
+		onend: function(obj) { console.log('DONE'); }
+	});
+	</script>
+
+</body>
+</html>

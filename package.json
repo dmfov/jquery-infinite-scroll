@@ -1,0 +1,33 @@
+{
+  "name": "jquery-infinite-scroll",
+  "version": "1.0.0",
+  "description": "Tiny infinite scroll for JQuery.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://dmfov@github.com/dmfov/jquery-infinite-scroll.git"
+  },
+  "keywords": [
+    "javascript",
+    "jquery",
+    "jquery-plugin",
+    "infinite",
+    "scroll"
+  ],
+  "author": "Dmitry Andreev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmfov/jquery-infinite-scroll/issues"
+  },
+  "homepage": "https://github.com/dmfov/jquery-infinite-scroll#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-uglify": "^2.1.2"
+  }
+}
